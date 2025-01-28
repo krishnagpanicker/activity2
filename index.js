@@ -1,7 +1,13 @@
-let x = 20;
-const y = (a, b) => a + b;
+// Part 1
 
-let lst = [1,2,3,4,5]
-let doubleLst = lst.map(x => x * 2);
-console.log(y(x, 2));
-console.log(doubleLst);
+// Data Types
+let score = 100;
+let temperature = 36.6;
+let greeting = "Hello, JavaScript!";
+let isLearningFun = true;
+console.log(score + " " + temperature + " " + greeting + " " + isLearningFun);
+
+// Objects and Arrays
+let student = {
+    name: "LeBron James"
+}
