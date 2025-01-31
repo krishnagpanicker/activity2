@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Activity 2</title>
+</head>
+<body>
+    <div id="header">
+        <h1 id="heading">TASK LIST</h1>
+    </div>
+    <div id="body">
+        <div class="top left">
+            <div id="add-list">
+                <button class="add-button" id="create-list">
+                    <img class="icon" src="plus-large-svgrepo-com.svg" width="20" alt="plus">
+                    <p class="button-text" id="create-text">Create List</p>
+                </button>
+                <button class="add-button">
+                    <p class="button-text">To-Do List</p>
+                </button>
+            </div>
+        </div>
+        <div class="top right">
+            <div class="list-task" id="first-task">
+                <input class="task-check" type="checkbox">
+                <p class="task-text">Complete Activity 2 - CMPSC 263</p>
+            </div>
+            <div class="list-task">
+                <input class="task-check" type="checkbox">
+                <p class="task-text">Project Proposal - CMPSC 263</p>
+            </div>
+        </div>
+    </div>
+    <div id="task">
+        <div id="task-bar">
+            <textarea id="text">Enter your task here</textarea>
+        </div>
+        <div id="submit">
+            <button id="submit-button">Enter</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
